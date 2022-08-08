@@ -9,4 +9,4 @@ day = sys.argv[1]
 
 # some fancy stuff with pandas
 
-print('Job finished successfully for job = {day}')
+print('Job finished successfully for job = f{day}')
