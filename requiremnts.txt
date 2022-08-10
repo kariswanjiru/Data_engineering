@@ -1,0 +1,23 @@
+Services:
+    postgres:
+        image: postgres:14
+        enviroment:
+            POSTGRES_USER: airflow 
+            POSTGRES_PASSWORD: airflow
+            POSTRGRES_DB: airflow
+        volumes:
+            -postrgres-db-volume: /var/lib/postgressql/data
+        healthcheck:
+            test: ["CMD" , "pg_isready" , "-U" ,"airflow"]
+            interval: 5s
+            retries: 5
+        restart: always
+
+
+docker run -it \
+    -e POSTGRES_USER="postgres" \
+    -e POSTGRES_PASSWORD="password" \
+    -e POSTRGRES_DB="ny_taxi" \
+    -v "C:/Users/USER\Documents/python_scripts/data_engineering_practice/ny_taxi_postgres_data":/var/lib/postgresql/data \
+    -p 5432:5432 \
+    postgres:14
