@@ -7,8 +7,8 @@ This is a solution to the Data Engineering Pracice Repository for the [data engi
 - [Overview](#overview)
   - [The Coursework.](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Tools and Featured Works](#my-process)
+  - [Tools](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -17,23 +17,24 @@ This is a solution to the Data Engineering Pracice Repository for the [data engi
 
 ## Overview
 
-### The challenge
+### The Coursework
 
 Dream Housing Finance company deals in all kinds of home loans. They have presence across all urban, semi urban and rural areas. Customer first applies for home loan and after that company validates the customer eligibility for loan. The solution will then have to automate the process of checking eligibility of an applcant by the data provided online.
 
 
 ### Links
 
-- Solution URL: [My solution](https://github.com/kariswanjiru/loan-prediction-hackathon)
+- Solution URL: [My Project](https://github.com/kariswanjiru/loan-prediction-hackathon)
 
-## My process
+## Tools and Featured work
 
-### Built with
+### Tools :
 
-- Pandas
-- Numpy
-- Skit-learn
-- XGBoost
+- GCP
+- Docker
+- Terraform
+- Postgressql
+- Python
 
 ### What I learned
 
