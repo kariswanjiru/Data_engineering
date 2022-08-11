@@ -33,3 +33,6 @@ docker run -it \
 
 # dataset
 https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
+
+# data dictonary
+https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
