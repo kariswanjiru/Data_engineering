@@ -14,11 +14,12 @@ Services:
         restart: always
 
 # postgres commands
+
 docker run -it \
-    -e POSTGRES_USER="postgres" \
-    -e POSTGRES_PASSWORD="password" \
+    -e POSTGRES_USER="root" \
+    -e POSTGRES_PASSWORD="root" \
     -e POSTRGRES_DB="ny_taxi" \
-    -v "C:/Users/USER\Documents/python_scripts/data_engineering_practice/ny_taxi_postgres_data":/var/lib/postgresql/data \
+    -v "C:/Users/USER/Documents/python_scripts/data_engineering_practice/ny_taxi_postgres_data":/var/lib/postgresql/data \
     -p 5432:5432 \
     postgres:14
 
@@ -29,3 +30,6 @@ docker run -it \
   -e PGADMIN_DEFAULT_PASSWORD="root" \
   -p 8080:80 \
   dpage/pgadmin4
+
+# dataset
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
