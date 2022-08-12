@@ -6,7 +6,7 @@ import pyarrow
 import argparse
 from sqlalchemy import create_engine
 
-taxi = pd.read_parquet('../data/yellow_tripdata_2021-01.parquet')
+#taxi = pd.read_parquet('../data/yellow_tripdata_2021-01.parquet')
 
 def main(params):
     user = params.user
@@ -16,11 +16,12 @@ def main(params):
     db = params.db
     table_name = params.table_name
     url = params.url
-    parquet_name = 'output.parquet'
+    parquet_name = '../data/output.csv'
 
     #download parquet file
-    os.system('wget {url} -0 {parquet_name}')
-    taxi = pd.read_parquet('{parquet_name}')
+    os.system(f"wget {url} -o {parquet_name}")
+    taxi = pd.read_csv(parquet_name)
+
     
     engine = create_engine('postgresql://{user}:{password}@{host}:{port}/{db}')
     engine.connect()
