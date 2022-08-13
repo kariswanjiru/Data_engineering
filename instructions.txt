@@ -32,7 +32,26 @@ docker run -it \
   dpage/pgadmin4
 
 # dataset
-https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
+URL="https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet"
+python ingest_data.py \
+    --user=postgres \
+    --password=password \
+    --host=loaclhost \
+    --port=5432 \
+    --db=ny_taxi \
+    --table_name=ny_taxi_trips \
+    --url=${URL}
+    
+docker run -it \
+    --network=pg-network \
+    taxi_ingest:v001 \
+        --user=postgres \
+        --password=password \
+        --host=loaclhost \
+        --port=5432 \
+        --db=ny_taxi \
+        --table_name=ny_taxi_trips \
+        --url=${URL}
 
 # data dictonary
 https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
