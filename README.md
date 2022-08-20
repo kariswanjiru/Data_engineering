@@ -1,5 +1,5 @@
 # Data Engineering
-Data Engineering is the act of collecting, translating, and validating data for analysis. In particular, data engineers build data warehouses to empower data-driven decisions. This self paced course equips me with all the skills that would allow me to emabrk ina career in MLOps. The course is taught by [Data Talks Club](https://datatalks.club/)
+Data Engineering is the act of collecting, translating, and validating data for analysis. In particular, data engineers build data warehouses to empower data-driven decisions. This self paced course equips me with all the skills that would allow me to embark ina career in MLOps. The course is taught by [Data Talks Club](https://datatalks.club/)
 ## Table of contents
 
 - [Overview](#overview)
@@ -42,6 +42,7 @@ This is my progress in the coursework:
  In week One I learnt to:
   - Docker + Postgresql
   - Terraform + GCP
+  - Cloud VM and SSH access
 
 ### Week Two
  What i learnt in week Two:
