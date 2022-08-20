@@ -1,7 +1,5 @@
-# Data_engineering_practice
-
-This is a solution to the Data Engineering Pracice Repository for the [data engineering course ](https://github.com/DataTalksClub/data-engineering-zoomcamp) by Data Talks.  
-
+# Data Engineering
+Data Engineering is the act of collecting, translating, and validating data for analysis. In particular, data engineers build data warehouses to empower data-driven decisions. This self paced course equips me with all the skills that would allow me to emabrk ina career in MLOps. The course is taught by [Data Talks Club](https://datatalks.club/)
 ## Table of contents
 
 - [Overview](#overview)
@@ -19,12 +17,10 @@ This is a solution to the Data Engineering Pracice Repository for the [data engi
 
 ### The Coursework
 
-Dream Housing Finance company deals in all kinds of home loans. They have presence across all urban, semi urban and rural areas. Customer first applies for home loan and after that company validates the customer eligibility for loan. The solution will then have to automate the process of checking eligibility of an applcant by the data provided online.
-
-
 ### Links
 
-- Solution URL: [My Project](https://github.com/kariswanjiru/loan-prediction-hackathon)
+- [Videos](https://www.youtube.com/watch?v=tOr4hTsHOzU&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=15)
+- [Github repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 
 ## Tools and Featured work
 
@@ -36,25 +32,22 @@ Dream Housing Finance company deals in all kinds of home loans. They have presen
 - Postgresql
 - Python
 - Metabase
+- Airflow
 
 
 ### What I learned
+This is my progress in the coursework:
 
 #### Week One
- In week One is learnt to:
-  - Create SSH keys \n
-   This is a code snippet of what i learnt, see below:
-  ```
-  ssh-keygen -t rsa -f C:\Users\WINDOWS_USER\.ssh\KEY_FILENAME -C USERNAME -b 2048
-  
-  ```
-  - Create docker images and Dockerfile
-  - Map ports using Docker-Compose
-  - Configure GCP SSH Keys
-  - Create VM gcp Instance.
-  
- ### Week Two
- What i learnt in week 
+ In week One I learnt to:
+  - Docker + Postgresql
+  - Terraform + GCP
+
+### Week Two
+ What i learnt in week Two:
+ - Datalake(GCS)
+ - Workflow Orcherstration
+ - Airflow
 
 
 ### Continued development
