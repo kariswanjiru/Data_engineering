@@ -49,6 +49,12 @@ This is my progress in the coursework:
  - Datalake(GCS)
  - Workflow Orcherstration
  - Airflow
+ - DAG
+ 
+ ### Week Three
+ What i learnt in week Two:
+ - BIgQuary best practices
+ - Airflow + BIGQ
 
 
 ### Continued development
